@@ -23,6 +23,9 @@ print(
 #
 # Write Code Below #
 
+size = int(input('Enter a sign :D : '))
+
+
 
 # 2 - for Loop | Patterns
 #   a. Prompt input from the user in the form of a symbol. Save to a variable named s.

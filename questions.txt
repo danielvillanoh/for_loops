@@ -1,26 +1,29 @@
-Name:
-Date:
+Name: Daniel Villano-Herrera
+Date: 7/16/2021
 
 1 - What is the structure of a for loop?
 
 
 2 - When should I use a for loop?
-
+Whenever you are repeating instructions.
 
 3 - Why are loops useful to us?
 
 
 4 - What are the different variations of the range() function?
-
+There are three variations of range() function:
+function(stop)
+function(start, stop)
+function(start, stop, step)
 
 5 - What are the two methods of creating a for loop?
 
 
 6 - What is the iterator variable? Does it have to be named i?
-
+The iterator variable stores each value of the sequence at point of time. It doesn't have to be named i.
 
 7 - Can you loop through a string?
-
+You can't loop a string.
 
 8 - What are examples of real life loops that you encounter?
-
+Real life loops I encounter are schedules

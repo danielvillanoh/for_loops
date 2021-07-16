@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Daniel Villano-Herrera
+# date: 7/16/2021
 
 # -------------------- Section 1 -------------------- #
 
@@ -24,7 +24,8 @@ print(
 #   elia
 #
 # Write Code Below #
-
+for i in range(5):
+    print('daniel')
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
@@ -39,6 +40,8 @@ print(
 #   4
 #
 # Write Code Below #
+for i in range(5):
+    print(i)
 
 
 # 3 - for Loop | Running According to the User
@@ -82,6 +85,9 @@ print(
 #   a
 #
 # Write Code Below #
+name = 'daniel'
+for i in range(len(name)):
+    print(name[i])
 
 
 # 2 - for Loop | Printing the User's Name
@@ -105,7 +111,10 @@ print(
 #   e
 #
 # Write Code Below #
+name = input('Please enter your name: ')
 
+for i in range(len(name)):
+    print(name[i])
 
 # ---------- Part 3 | range() variations ---------- #
 print(
@@ -142,7 +151,8 @@ print(
 #   24
 #
 # Write Code Below #
-
+for i in range(10, 25):
+    print(i)
 
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
@@ -162,4 +172,5 @@ print(
 #   -4
 #
 # Write Code Below #
-
+for i in range(5, -5, -1):
+    print(i)
