@@ -2,13 +2,15 @@ Name: Daniel Villano-Herrera
 Date: 7/16/2021
 
 1 - What is the structure of a for loop?
-
+The structure of the for loop looks something like:
+for i in range():
+    pass
 
 2 - When should I use a for loop?
 Whenever you are repeating instructions.
 
 3 - Why are loops useful to us?
-
+Loops are very useful when we deal with unknown size, such as an user input.
 
 4 - What are the different variations of the range() function?
 There are three variations of range() function:
@@ -17,7 +19,7 @@ function(start, stop)
 function(start, stop, step)
 
 5 - What are the two methods of creating a for loop?
-
+It can be used with in range() or in sequence.
 
 6 - What is the iterator variable? Does it have to be named i?
 The iterator variable stores each value of the sequence at point of time. It doesn't have to be named i.
@@ -26,4 +28,4 @@ The iterator variable stores each value of the sequence at point of time. It doe
 You can't loop a string.
 
 8 - What are examples of real life loops that you encounter?
-Real life loops I encounter are schedules
+Real life loops I encounter are schedules on my daily life.

@@ -62,7 +62,10 @@ for i in range(5):
 #   $$$$$$
 #
 # Write Code Below #
-
+size = int(input('Enter your size: '))
+symbol = input('Enter your symbol: ')
+for i in range(size):
+    print(symbol * i)
 
 # ---------- Part 2 | Direct Access ---------- #
 print(
